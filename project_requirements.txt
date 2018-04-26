@@ -14,6 +14,10 @@
 		- Cross-check the user queries (select, insert, update, etc.)
 		- Visualize your query results, if necessary
 	- show our query results
+	Design the SQL queries and updates to realize the various operations, and test them.
+		– You need to cross-check queries, for example:
+		– Query #1: List all the ....
+	Test by hand.
 4. Conclusion / Discussion
 	- Challenges, your team’s contributions
 5. Acknowledgement
@@ -26,14 +30,7 @@ Create base relations.
 
 Input these into the DBMS.
 
-Design the SQL queries and updates to realize the various operations, and test
-them.
-	– You need to cross-check queries, for example:
-	– Query #1: List all the ....
-
 Create forms for each operation, as well as application code to exercise them
 appropriately.
-
-Test by hand.
 
 Research challenges. (Extra 2 credits)
