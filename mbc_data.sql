@@ -1,5 +1,4 @@
 USE mbc;
-INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES (id, 'release_date', revenue, 'title', vote_average);
 INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES (19995, '12/10/2009', 2787965087, 'Avatar', 7.2);
 INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES (140607, '12/15/2015', 2068223624, 'Star Wars: The Force Awakens', 7.5);
 INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES (597, '11/18/1997', 1845034188, 'Titanic', 7.5);

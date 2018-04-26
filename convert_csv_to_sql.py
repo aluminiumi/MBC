@@ -15,16 +15,17 @@ def main(argv):
     print("USE mbc;");
 
     while linenum < len(program)-1:
-        line = program[linenum].strip()
-        #print("Entry on line "+str(linenum)+": "+line)
-        inst = line.split(",")
-        if inst[0] == "":
-            #blank line read, do nothing
-            #print("blank line read")
-            break
-        else:
-            #print(inst[2])
-            print("INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES ("+inst[0]+", \'"+inst[1]+"\', "+inst[2]+", \'"+inst[3]+"\', "+inst[4]+");")
+        if linenum > 0:
+            line = program[linenum].strip()
+            #print("Entry on line "+str(linenum)+": "+line)
+            inst = line.split(",")
+            if inst[0] == "":
+                #blank line read, do nothing
+                #print("blank line read")
+                break
+            else:
+                #print(inst[2])
+                print("INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES ("+inst[0]+", \'"+inst[1]+"\', "+inst[2]+", \'"+inst[3]+"\', "+inst[4]+");")
 
         linenum+=1
 
