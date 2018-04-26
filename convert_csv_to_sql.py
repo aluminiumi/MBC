@@ -25,7 +25,8 @@ def main(argv):
                 break
             else:
                 #print(inst[2])
-                print("INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES ("+inst[0]+", \'"+inst[1]+"\', "+inst[2]+", \'"+inst[3]+"\', "+inst[4]+");")
+                newdate = inst[1].split("/");
+                print("INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES ("+inst[0]+", \'"+newdate[0]+"\', "+inst[2]+", \'"+inst[3]+"\', "+inst[4]+");")
 
         linenum+=1
 
