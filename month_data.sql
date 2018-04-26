@@ -1,0 +1,13 @@
+USE mbc;
+INSERT INTO Months (month, quarter) VALUES (1, 1);
+INSERT INTO Months (month, quarter) VALUES (2, 1);
+INSERT INTO Months (month, quarter) VALUES (3, 1);
+INSERT INTO Months (month, quarter) VALUES (4, 2);
+INSERT INTO Months (month, quarter) VALUES (5, 2);
+INSERT INTO Months (month, quarter) VALUES (6, 2);
+INSERT INTO Months (month, quarter) VALUES (7, 3);
+INSERT INTO Months (month, quarter) VALUES (8, 3);
+INSERT INTO Months (month, quarter) VALUES (9, 3);
+INSERT INTO Months (month, quarter) VALUES (10, 4);
+INSERT INTO Months (month, quarter) VALUES (11, 4);
+INSERT INTO Months (month, quarter) VALUES (12, 4);

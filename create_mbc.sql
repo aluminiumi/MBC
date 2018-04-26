@@ -11,3 +11,8 @@ CREATE TABLE Movies
    vote_average float NOT NULL
 );
 
+CREATE TABLE Months
+(
+   month int NOT NULL PRIMARY KEY,
+   quarter int NOT NULL
+);
