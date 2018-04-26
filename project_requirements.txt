@@ -21,9 +21,6 @@
 
 
 
-• Create a conceptual schema.
-	– Identification of object, attributes, Relationships
-Create a logical schema.
 Create base relations.
 	– Definition of Attributes: what is data type? Who is the primary key?
 
@@ -36,5 +33,7 @@ them.
 
 Create forms for each operation, as well as application code to exercise them
 appropriately.
-	• Test by hand.
-	• Research challenges. (Extra 2 credits)
+
+Test by hand.
+
+Research challenges. (Extra 2 credits)
