@@ -1,0 +1,40 @@
+1. Introduction
+2. Database design
+	- Conceptual database design
+		- ER model: Object, Attributes, Relationships)
+	- Logical database design
+		- Translate ER model into an equivalent relational data model.
+		- Normalization, 3NF
+	- Physical database design
+		- Create database table
+		- Define key constrains, index, trigger (apply two of them)
+		- Design user views
+3. Implementation
+	- Validation of Relational Data Model
+		- Cross-check the user queries (select, insert, update, etc.)
+		- Visualize your query results, if necessary
+	- show our query results
+4. Conclusion / Discussion
+	- Challenges, your team’s contributions
+5. Acknowledgement
+	- Each member’s contribution
+
+
+
+• Create a conceptual schema.
+	– Identification of object, attributes, Relationships
+Create a logical schema.
+Create base relations.
+	– Definition of Attributes: what is data type? Who is the primary key?
+
+Input these into the DBMS.
+
+Design the SQL queries and updates to realize the various operations, and test
+them.
+	– You need to cross-check queries, for example:
+	– Query #1: List all the ....
+
+Create forms for each operation, as well as application code to exercise them
+appropriately.
+	• Test by hand.
+	• Research challenges. (Extra 2 credits)
