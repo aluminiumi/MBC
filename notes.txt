@@ -1,2 +1,0 @@
-select * from Movies where release_date like '10%' or release_date like '11%' or release_date like '12%' order by revenue desc limit 10;
-

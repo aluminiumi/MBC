@@ -2,12 +2,13 @@
 
 echo "Deleting database..."
 echo "DROP DATABASE mbc;" | mysql
-./convert_csv_to_sql.py > mbc_data.sql
 
 echo "Creating database..."
+./convert_csv_to_sql.py > mbc_data.sql
 mysql < create_mbc.sql
 
-echo "Populating table..."
+echo "Populating tables..."
+mysql < month_data.sql
 mysql < mbc_data.sql
 
 

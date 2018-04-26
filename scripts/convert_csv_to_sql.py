@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #Vasilis Vloutis
 
-#import math
 import os.path
 import sys
 
@@ -17,14 +16,11 @@ def main(argv):
     while linenum < len(program)-1:
         if linenum > 0:
             line = program[linenum].strip()
-            #print("Entry on line "+str(linenum)+": "+line)
             inst = line.split(",")
             if inst[0] == "":
                 #blank line read, do nothing
-                #print("blank line read")
                 break
             else:
-                #print(inst[2])
                 newdate = inst[1].split("/");
                 print("INSERT INTO Movies (id,release_date,revenue,title,vote_average) VALUES ("+inst[0]+", \'"+newdate[0]+"\', "+inst[2]+", \'"+inst[3]+"\', "+inst[4]+");")
 
