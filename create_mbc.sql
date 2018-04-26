@@ -2,7 +2,7 @@
 
 USE mbc;
 
-CREATE TABLE Inventory
+CREATE TABLE Movies
 (
    id int NOT NULL PRIMARY KEY,
    release_date varchar(10) NOT NULL,
