@@ -7,7 +7,7 @@ import sys
 def main(argv):
     args = argv[1:]
    
-    csvfile = open("movie_data.csv", "r")
+    csvfile = open("../datasets/movie_data.csv", "r")
     linenum = 0
 
     program = csvfile.read().split("\n")
